@@ -1,0 +1,107 @@
+.menu-bar {
+	position: fixed;
+	top: 0;
+	/*margin:0;*/
+	border: 0;
+	text-align: center;
+	background-color: darkblue;
+	width: 100%;
+	left: 0;
+	right: 0;
+	height: 70px;
+}
+
+.left {
+	float: left;
+	padding: 10px;
+}
+
+body {
+	padding-top: 70px;
+}
+
+.sample {
+	/*height:1500px;*/
+	/*background-color:#111;*/
+}
+
+.menu-bar ul {
+	list-style-type: none;
+}
+
+	.menu-bar ul li {
+		float: left;
+		padding: 10px;
+		/*background:green;*/
+		display: block;
+	}
+
+.menu-bar li a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 10px;
+	font-size: large;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-bar ul li a:hover {
+	color: coral;
+}
+
+ul.tab {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+	/* Float the list items side by side */
+	ul.tab li {
+		float: left;
+	}
+
+		/* Style the links inside the list items */
+		ul.tab li a {
+			display: inline-block;
+			color: black;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			transition: 0.3s;
+			font-size: 17px;
+		}
+
+			/* Change background color of links on hover */
+			ul.tab li a:hover {
+				background-color: #ddd;
+			}
+
+			/* Create an active/current tablink class */
+			ul.tab li a:focus, .active {
+				background-color: #ccc;
+			}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.body-container {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.table-heading {
+	background-color: grey;
+	color: white;
+}
+	.table-heading:hover {
+		background-color:lightblue;
+		color:coral;
+	}
