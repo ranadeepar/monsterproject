@@ -10,6 +10,7 @@ namespace MonsterTest.Services
 	{
 		public static List<Supplier> SessionSuppliers
 		{
+
 			get
 			{
 				if (HttpContext.Current.Session["Suppliers"] != null)
